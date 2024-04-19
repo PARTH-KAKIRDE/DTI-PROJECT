@@ -1,0 +1,44 @@
+-- IDF_TARGET is not set, guessed 'esp32' from sdkconfig '/home/parth_kakirde/Projects/DTI-PROJECT/R/sdkconfig'
+-- Found Git: /usr/bin/git (found version "2.40.1") 
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/parth_kakirde/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/parth_kakirde/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/parth_kakirde/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/parth_kakirde/Projects/DTI-PROJECT/R/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /home/parth_kakirde/.espressif/python_env/idf5.1_py3.11_env/bin/python (found version "3.11.6") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "DTI_RADAR" version: 9fae27e-dirty
+-- Adding linker script /home/parth_kakirde/Projects/DTI-PROJECT/R/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/parth_kakirde/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/parth_kakirde/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/parth_kakirde/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/parth_kakirde/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/parth_kakirde/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/parth_kakirde/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/parth_kakirde/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/parth_kakirde/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs sra-board-component tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/parth_kakirde/esp/esp-idf/components/app_trace /home/parth_kakirde/esp/esp-idf/components/app_update /home/parth_kakirde/esp/esp-idf/components/bootloader /home/parth_kakirde/esp/esp-idf/components/bootloader_support /home/parth_kakirde/esp/esp-idf/components/bt /home/parth_kakirde/esp/esp-idf/components/cmock /home/parth_kakirde/esp/esp-idf/components/console /home/parth_kakirde/esp/esp-idf/components/cxx /home/parth_kakirde/esp/esp-idf/components/driver /home/parth_kakirde/esp/esp-idf/components/efuse /home/parth_kakirde/esp/esp-idf/components/esp-tls /home/parth_kakirde/esp/esp-idf/components/esp_adc /home/parth_kakirde/esp/esp-idf/components/esp_app_format /home/parth_kakirde/esp/esp-idf/components/esp_coex /home/parth_kakirde/esp/esp-idf/components/esp_common /home/parth_kakirde/esp/esp-idf/components/esp_eth /home/parth_kakirde/esp/esp-idf/components/esp_event /home/parth_kakirde/esp/esp-idf/components/esp_gdbstub /home/parth_kakirde/esp/esp-idf/components/esp_hid /home/parth_kakirde/esp/esp-idf/components/esp_http_client /home/parth_kakirde/esp/esp-idf/components/esp_http_server /home/parth_kakirde/esp/esp-idf/components/esp_https_ota /home/parth_kakirde/esp/esp-idf/components/esp_https_server /home/parth_kakirde/esp/esp-idf/components/esp_hw_support /home/parth_kakirde/esp/esp-idf/components/esp_lcd /home/parth_kakirde/esp/esp-idf/components/esp_local_ctrl /home/parth_kakirde/esp/esp-idf/components/esp_mm /home/parth_kakirde/esp/esp-idf/components/esp_netif /home/parth_kakirde/esp/esp-idf/components/esp_netif_stack /home/parth_kakirde/esp/esp-idf/components/esp_partition /home/parth_kakirde/esp/esp-idf/components/esp_phy /home/parth_kakirde/esp/esp-idf/components/esp_pm /home/parth_kakirde/esp/esp-idf/components/esp_psram /home/parth_kakirde/esp/esp-idf/components/esp_ringbuf /home/parth_kakirde/esp/esp-idf/components/esp_rom /home/parth_kakirde/esp/esp-idf/components/esp_system /home/parth_kakirde/esp/esp-idf/components/esp_timer /home/parth_kakirde/esp/esp-idf/components/esp_wifi /home/parth_kakirde/esp/esp-idf/components/espcoredump /home/parth_kakirde/esp/esp-idf/components/esptool_py /home/parth_kakirde/esp/esp-idf/components/fatfs /home/parth_kakirde/esp/esp-idf/components/freertos /home/parth_kakirde/esp/esp-idf/components/hal /home/parth_kakirde/esp/esp-idf/components/heap /home/parth_kakirde/esp/esp-idf/components/http_parser /home/parth_kakirde/esp/esp-idf/components/idf_test /home/parth_kakirde/esp/esp-idf/components/ieee802154 /home/parth_kakirde/esp/esp-idf/components/json /home/parth_kakirde/esp/esp-idf/components/log /home/parth_kakirde/esp/esp-idf/components/lwip /home/parth_kakirde/Projects/DTI-PROJECT/R/main /home/parth_kakirde/esp/esp-idf/components/mbedtls /home/parth_kakirde/esp/esp-idf/components/mqtt /home/parth_kakirde/esp/esp-idf/components/newlib /home/parth_kakirde/esp/esp-idf/components/nvs_flash /home/parth_kakirde/esp/esp-idf/components/openthread /home/parth_kakirde/esp/esp-idf/components/partition_table /home/parth_kakirde/esp/esp-idf/components/perfmon /home/parth_kakirde/esp/esp-idf/components/protobuf-c /home/parth_kakirde/esp/esp-idf/components/protocomm /home/parth_kakirde/esp/esp-idf/components/pthread /home/parth_kakirde/esp/esp-idf/components/sdmmc /home/parth_kakirde/esp/esp-idf/components/soc /home/parth_kakirde/esp/esp-idf/components/spi_flash /home/parth_kakirde/esp/esp-idf/components/spiffs /home/parth_kakirde/Projects/DTI-PROJECT/components/sra-board-component /home/parth_kakirde/esp/esp-idf/components/tcp_transport /home/parth_kakirde/esp/esp-idf/components/ulp /home/parth_kakirde/esp/esp-idf/components/unity /home/parth_kakirde/esp/esp-idf/components/usb /home/parth_kakirde/esp/esp-idf/components/vfs /home/parth_kakirde/esp/esp-idf/components/wear_levelling /home/parth_kakirde/esp/esp-idf/components/wifi_provisioning /home/parth_kakirde/esp/esp-idf/components/wpa_supplicant /home/parth_kakirde/esp/esp-idf/components/xtensa
+-- Configuring done (2.1s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/parth_kakirde/Projects/DTI-PROJECT/R/build
